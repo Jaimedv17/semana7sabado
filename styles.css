@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.GridPadre{
+    width: 1440px;
+    height: auto;
+    background-color:  #F2F2F2;
+    margin: 0 auto;
+    margin-top: 3rem;
+    padding: 71px 65px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+.Grid1 {
+    grid-column: 1/2;
+}
+
+.Grid2 {
+    grid-column: 2/4;
+}
+/*..........................................*/
+
+.contenedor{
+    background-color: white;
+    padding: 22px;
+    max-width: 413px;
+    padding-bottom:2rem ;
+    border-radius: 12px;
+}
+.imagen{
+    min-width: 100%;
+}
+.Nombre{
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+.subtitle{
+    font-size: 18px;
+    font-weight: 500;
+    color: #828282;
+    margin-top: 0.5rem;
+}
+.contactos{
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+}
+span{
+    margin-top: 0.5rem;
+}
+.text{
+    font-size: 18px;
+    font-weight: 500;
+    color: #828282;
+}
+/*.......................................*/
+.ContenedorMarcas{
+    background-color: white;
+    margin-top: 2.5rem;
+    max-width: 413px;
+    padding: 22px;
+    border-radius: 12px;
+    padding-bottom: 2.5rem;
+}
+.Marca{
+    display: flex;
+    margin-top: 3rem;
+}
+.Experiencia{
+    color: #4F4F4F;
+    font-size: 24px;
+    font-weight: 500;
+}
+.Fecha{
+    font-size: 14px;
+    font-weight: 500;
+}
+.SubTileMarca{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+.TexMarca{
+    font-size: 16px;
+    font-weight: 500;
+}
+/*..............................*/
+.ContenedorHobbies{
+    margin-top: 2.5rem;
+    background-color: white;
+    padding: 22px;
+    border-radius: 12px;
+    padding-bottom: 2.5rem;
+}
+.Hobbies{
+    color: #4F4F4F;
+    font-size: 24px;
+    font-weight: 500;
+}
+.Article{
+    margin-top: 2.5rem;
+}
+.SubTitleHobbie{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.TexHobbies{
+    font-size: 16px;
+    font-weight: 500;
+}
+/*............Grid 2...............*/
+.ContenedorNiveles{
+    display: grid;
+    justify-content: 1fr 1fr;
+}
+.Niveles{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    color: #4F4F4F;
+    font-weight: 500;
+}
+.TitleNiveles{
+    font-size: 18px;
+    font-weight: 700;
+}
+.ContenidoFront{
+    grid-column: 1/2;
+    background-color: white;
+    max-width: 415px;
+    padding: 23px;
+    border-radius: 12px;
+    margin-right: 1rem;
+}
+.CotenidoDesign{
+    grid-column: 2/3;
+    background-color: white;
+    max-width: 415px;
+    height: 120px;
+    padding: 23px;
+    border-radius: 12px;
+}
+progress{
+    width: 250px;
+    margin-left: 1rem;
+}
+/*...................................*/
+.Projects{
+    margin-top: 2.5rem;
+    background-color: white;
+    padding: 1.3rem;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4F4F4F;
+}
+/*.........................................*/
+
+.ContenedorResponsive{
+    display: flex;
+    background-color: white;
+    border-radius: 12px;
+    margin-top: 2rem;
+    padding: 23px 18px
+}
+.ContenidoRespondive{
+    margin-top: 0.5;
+    margin-left: 2rem;
+}
+.HtmlCss{
+    color: #4F4F4F;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.SubTileResponsive{
+    color: #333;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.TextResponsive{
+    color: #828282;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.Button{
+    margin-top: 4.5rem;
+    padding: 0.7rem 0rem ;
+    font-size: 18px;
+    font-weight: 500;
+}
+.ButtonDemo{
+    padding: 0.7rem 2.5rem 0.7rem 2.5rem;
+    background-color: #2F80ED;
+    color: white;
+    border-radius: 12px;
+}
+.ButtonCode{
+    padding: 0.7rem 2.5rem 0.7rem 2.5rem;
+    border: 1px solid #2F80ED;
+    color: #2F80ED;
+    border-radius: 12px;
+}
+a{
+    text-decoration: none;
+}
+/*.....................*/
+.Blog{
+    margin-top: 2.5rem;
+    background-color: white;
+    padding: 1.3rem;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4F4F4F;
+}
+/*...................................*/
+.ContenedorBlog{
+    display: flex;
+    background-color: white;
+    padding: 30px 0 30px 20px;
+    margin-top: 1rem;
+    border-radius: 12px;
+}
+.ContenidoBlog{
+    margin-right: 5rem;
+}
+.TextBlog{
+    color: #E0E0E0;
+    font-size:16px;
+    font-weight: 500;
+}
+.SubtitleCss{
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+.Text2{
+    color: #828282;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.Text3{
+    color: #828282;
+    font-weight: 500;
+    margin-top: 2rem;
+}
+.ButtonDev{
+    color: #2F80ED;
+    display: block;
+    margin-top: 1rem;
+}
+/*.......*/
+.ImgMarca {
+    max-width: 84px;
+    height: 84px;
+}
+.ImgHobbie{
+    max-width: 100%;
+}
+.ImgResponsive{
+    max-width: 321px;
+    height: 274px;
+}
+.ImgBlog{
+    max-width: 870px;
+    
+}
+/*.......Responsive.......1467.....*/
+
+
+
+@media (max-width: 1133px){
+    .Grid2{
+        padding-right: 0;
+    }
+    .ContenidoFront{
+        max-width: 415px;
+    }
+    .CotenidoDesign{
+        margin-top: 1rem;
+        max-width: 415px;
+    }
+    progress{
+        max-width: 200px;
+    }
+    .ContenedorNiveles{
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .ContenidoFront{
+        width: 415px;
+    }
+    .Projects{
+        max-width: 415px;
+    }
+    .ContenedorResponsive{
+        display: flex;
+        flex-direction: column;
+        max-width: 415px;
+    }
+    .ContenidoRespondive{
+        margin-top: 1rem;
+        max-width: 415px;
+        margin-left: 0;
+    }
+    .ImgResponsive{
+        max-width: 415px;
+    }
+    .Blog{
+        max-width: 415px;
+    }
+    .ContenedorBlog{
+        display: flex;
+        flex-direction: column;
+        max-width: 435px;
+    }
+    .ContenidoBlog{
+        max-width: 800px;
+        margin-right: auto;
+        margin-bottom: 1re;
+    }
+    .ImgBlog{
+        max-width: 100%;
+    }
+    .Button{
+        position: relative;
+    }
+    .ButtonDemo{
+        position: absolute;
+        right: 3rem;
+        bottom: 0;
+    }
+}
+
+@media (max-width: 1382px){
+    progress{
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 1587px){
+    .GridPadre{
+        width: auto;
+    }
+}
+@media (max-width: 982px){
+    .ContenidoFront{
+        max-width: 86%;
+    }
+}
+@media (max-width: 1184px){
+    
+    .ContenidoRespondive{
+        height: 23.5rem;
+    }
+    .Button{
+        height: 5rem;
+        position: relative;
+        top: -3rem;
+    }
+    .ButtonCode{
+        margin-top: 1rem;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .GridPadre{
+        padding-left: 2rem;
+        padding-right: 0;
+
+    }
+}
+@media (max-width: 878px){
+    .GridPadre{
+        display: flex;
+        flex-direction: column;
+    }
+    .ContenedorHobbies{
+        max-width: 415px;
+    }
+    .GridPadre{
+        padding-left: 2rem;
+        padding-right: 0;
+        
+    }
+}
+
+
+/* @media (max-width: 1154px){
+    .ContenidoFront{
+        width: 210px;
+    }
+    .CotenidoDesign{
+        width: 210px;
+    }
+} */
+
+
